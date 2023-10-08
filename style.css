@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,700&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    padding: 3vh;
+    width: 189.3vh;
+    text-shadow: 2px 2px #484d67;
+    background-color: rgb(25, 29, 50);
+}
+.links{
+    display: inline;
+    padding: 2px;
+    margin: 2px;
+    text-align: right;
+}
+
+.links #home a{
+    display: inline;
+    position: relative;
+}
+.links #gallery a{
+    display: inline;
+    position: relative;
+}
+
+.image{
+    display: inline;
+    text-align: left;
+    float: left;
+}
+.links a{
+    float: right;
+    color: rgb(255, 255, 255);
+    padding: 3px;
+    margin: 3px;
+    font-family: 'Crimson Text', serif;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.5em;
+    opacity: 1;
+    transition: 0.4s;
+}
+
+.links a:hover{
+    font-size: 2em;
+    color: rgb(176, 244, 255);
+}
+
+
+.banner{
+    background-image: url('banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 85vh;
+}
+
+.bannert{
+    top: 20vh;
+    left: 10vw;
+    padding-top: 70px;
+    padding-left: 20px;
+}
+.bannert h1{
+    font-family: 'Crimson Text', serif;
+    color: white;
+    font-weight: 700;
+    position: relative;
+    font-size: 4em;
+    text-shadow: 2px 2px #0000003f;
+}
+
+.bannert h1 span{
+    color: rgb(176, 244, 255);
+}
+
+
+
+.bannert p{
+    font-size: 2em;
+    font-family: 'Crimson Text', serif;
+    font-weight: 500;
+    color: white;
+    text-shadow: 2px 2px #0000003f;
+}
+
+.bannert a{
+    font-family: 'Crimson Text', serif;
+    text-decoration: none;
+    position: relative;
+    color: rgb(0, 0, 0);
+    background-color: rgb(176, 244, 255);
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.footer {
+    background-color: rgb(25, 29, 50);
+    height: 30vh;
+    width: 100vw;
+}
+.copyright{
+    font-family: 'Crimson Text', serif;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    float: left;
+}
+
+.copyright p{
+    padding: 5px;
+    display: inline;
+    margin: 5px;
+}
+
+.socmed{
+    padding: 2vw;
+    margin: 10px;
+    display: inline;
+    text-align: right;
+    float: right;
+}
+.socmed a{
+    display: inline;
+    padding: 5px;
+    margin: 5px;
+}
+
+.socmed #twt a{
+    display: inline;
+    position: relative;
+}
+
+.socmed #github a{
+    display: inline;
+    position: relative;
+}
+
+.socmed #discord a{
+    display: inline;
+    position: relative;
+}
+
+.gallery{
+    height: 100vh;
+    width: 100vw;
+    margin-top: 25px;
+}
+.gtitle{
+    font-family: 'Crimson Text', serif;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(25, 29, 50);
+    font-size: 1em;
+    transition: 0.2s;
+}
+
+.gimages{
+    margin-top: 25px;
+    text-align: center;
+}
+
+.gimg1 img{
+    padding: 5px;
+    margin: 5px;
+    transition: 0.4s;
+}
+
+.gimg1 img:hover{
+    width: 25vw;
+    height: 40vh; 
+}
+
+.gimg2 img{
+    padding: 5px;
+    margin: 5px;
+    transition: 0.4s;
+}
+
+.gimg2 img:hover{
+    width: 25vw;
+    height: 40vh; 
+}
+
+
